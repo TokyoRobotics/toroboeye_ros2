@@ -13,17 +13,15 @@ The `toroboeye_ros2` provides a ROS2 interface for the [toroboeye](https://robot
   - [File system](#file-system)
   - [Installation](#installation)
     - [Pytoroboeye installation](#pytoroboeye-installation)
-    - [ROS installation](#ros-installation)
+    - [ROS2 installation](#ros2-installation)
       - [Install build essentials](#install-build-essentials)
-      - [Install ROS Melodic Morenia](#install-ros-melodic-morenia)
-      - [catkin_ws setup](#catkin_ws-setup)
-      - [Clone toroboeye_ros](#clone-toroboeye_ros)
-      - [Install necessary Package for toroboeye_ros](#install-necessary-package-for-toroboeye_ros)
-    - [Build toroboeye](#build-toroboeye)
+      - [Install ROS2 Galactic Geochelone](#install-ros2-galactic-geochelone)
+      - [Create workspace](#create-workspace)
+      - [Clone toroboeye_ros2](#clone-toroboeye_ros2)
+    - [Build toroboeye_ros2](#build-toroboeye_ros2)
   - [Getting Started](#getting-started)
-    - [Launch Rviz and toroboeye GUI](#launch-rviz-and-toroboeye-gui)
+    - [Launch Rviz and toroboeye GUI](#launch-rviz-and-toroboeye)
     - [Examples](#examples)
-      - [Capture](#capture)
   - [License](#license)
 
 
@@ -46,7 +44,7 @@ This package has only been tested for the one recommended above.
 - If you don't have pytoroboeye package, Please contact us.
 
 ### ROS2 installation
-This operation is unnecessary if ROS Melodic Morenia has already been installed.
+This operation is unnecessary if ROS2 Galactic Geochelone has already been installed.
 
 #### Install ROS2 Galactic Geochelone
 Install build essentials
@@ -117,7 +115,7 @@ source install/setup.bash
 ```
 
 ## Getting Started
-### Launch Rviz and toroboeye GUI
+### Launch Rviz and toroboeye
 
 Launch toroboeye_bringup.launch, captured image and pointcloud publish node is started. also lanunched rviz and toroboeye gui.
 you can cofirm captured image(color and depth) and pointcloud in rviz.
