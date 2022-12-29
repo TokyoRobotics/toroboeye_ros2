@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>toroboeye_camera</name>
+  <version>0.0.0</version>
+  <description>TODO: Package description</description>
+  <maintainer email="please_contact_us_via_the_bugtracker_site_of_url_tag@dummy.address">Tokyo Robotics Inc.</maintainer>
+  <url type="repository">https://github.com/tokyorobotics/toroboeye_ros2</url>
+  <url type="bugtracker">https://github.com/tokyorobotics/toroboeye_ros2/issues</url>
+  <license>BSD3</license>
+
+  <depend>rclpy</depend>
+  <depend>example_interfaces</depend>
+
+  <test_depend>ament_copyright</test_depend>
+  <test_depend>ament_flake8</test_depend>
+  <test_depend>ament_pep257</test_depend>
+  <test_depend>python3-pytest</test_depend>
+
+  <exec_depend>toroboeye_msgs</exec_depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>

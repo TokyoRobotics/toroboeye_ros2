@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+    <name>toroboeye_bringup</name>
+    <version>0.0.0</version>
+    <description>toroboeye bringup package</description>
+    <maintainer email="please_contact_us_via_the_bugtracker_site_of_url_tag@dummy.address">Tokyo Robotics Inc.</maintainer>
+    <license>BSD3</license>
+    <url type="repository">https://github.com/tokyorobotics/toroboeye_ros2</url>
+    <url type="bugtracker">https://github.com/tokyorobotics/toroboeye_ros2/issues</url>
+    <buildtool_depend>ament_cmake</buildtool_depend>
+    <export>
+        <build_type>ament_cmake</build_type>
+    </export>
+</package>
