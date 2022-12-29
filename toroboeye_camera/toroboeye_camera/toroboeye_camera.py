@@ -45,8 +45,8 @@ class Server(Node):
 
         self._tc                        = toroboeye.Camera()
         self._bridge                    = CvBridge()
-        self._pub_color                 = self.create_publisher(Image, 'camera/color_image', 10)
-        self._pub_depth                 = self.create_publisher(Image, 'camera/depth_image', 10)
+        self._pub_color                 = self.create_publisher(Image, 'camera/color/image', 10)
+        self._pub_depth                 = self.create_publisher(Image, 'camera/depth/image', 10)
         self._pub_caminfo               = self.create_publisher(CameraInfo, 'camera/camera_info', 10)
         self._pub_pcd                   = self.create_publisher(PointCloud2, 'camera/point_cloud', 10)
         self._intrinsics                = None
